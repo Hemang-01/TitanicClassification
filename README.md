@@ -53,3 +53,5 @@ You can install these libraries using pip:
 
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn faker
+```
+# Jupyter Notebook Code: 
