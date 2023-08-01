@@ -9,7 +9,7 @@ This project demonstrates a simple machine learning model to predict the surviva
 
 ## Dataset
 
-The Titanic dataset used in this project contains information about passengers on the Titanic, including features like Pclass, Sex, Age, Fare, and Embarked. The target variable is 'Survived,' which indicates whether a passenger survived (1) or did not survive (0). I have used this dataset in this project:- https://github.com/datasciencedojo/datasets/tree/master
+The Titanic dataset used in this project contains information about passengers on the Titanic, including features like Pclass, Sex, Age, Fare, and Embarked. The target variable is 'Survived,' which indicates whether a passenger survived (1) or did not survive (0). I have used this dataset in this project:- https://github.com/datasciencedojo/datasets/tree/master/titanic.csv
 
 ## Requirements
 
