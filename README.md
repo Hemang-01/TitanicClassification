@@ -49,6 +49,31 @@ To run the code in this project, you need the following libraries installed:
 - scikit-learn
 - faker (for generating synthetic data)
 
+## Visualization 
+You can add more graphs and visualizations to the code to gain further insights into the Titanic dataset or to present the data in different ways. Visualizations are a powerful tool for data exploration and communication.
+
+Here are some additional graph ideas you can consider adding to the code:
+
+1. **Correlation Heatmap**: Create a correlation heatmap to visualize the correlation between different features and the target variable 'Survived'. This will help you identify which features have a stronger relationship with survival.
+
+2. **Box Plots**: Use box plots to visualize the distribution of numerical features (e.g., Age, Fare) for different survival outcomes. Box plots can help identify potential outliers and differences in distributions between survived and non-survived passengers.
+
+3. **Bar Plots for Other Categorical Variables**: If your dataset contains other categorical variables, you can create bar plots to visualize the relationship between those variables and survival.
+
+4. **Pair Plot**: A pair plot can be helpful to visualize multiple pairwise relationships in the dataset. You can use the Seaborn `pairplot` function to create scatter plots for numerical features and bar plots for categorical features.
+
+5. **Kernel Density Estimation (KDE) Plots**: Use KDE plots to visualize the distribution of numerical features based on survival outcomes. KDE plots provide a smoothed representation of the data distribution.
+
+6. **Facet Grid Plots**: If you have multiple categorical variables, you can use Seaborn's facet grid plots to visualize relationships between numerical features and survival, segmented by different categorical variables.
+
+7. **Stacked Bar Plots**: Create stacked bar plots to visualize combinations of multiple categorical variables with survival outcomes.
+
+8. **Violin Plots**: Violin plots combine box plots and KDE plots to visualize the distribution of numerical features and their densities for different survival outcomes.
+
+Remember to use the appropriate type of visualization based on the nature of the data and the insights you want to gain. You can add these graphs at various stages of the code, such as after data preprocessing or before model evaluation.
+
+Feel free to experiment with different visualizations to better understand the dataset and uncover interesting patterns or relationships between features and survival.
+
 You can install these libraries using pip:
 
 ```bash
